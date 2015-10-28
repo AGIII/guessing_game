@@ -38,7 +38,7 @@
 
   if (parseInt(temp) === 55) {
     tally = tally + 1;
-    alert('Correct! It is' + temp + ' degrees fahrenheit outside.');
+    alert('Correct! It is ' + temp + ' degrees fahrenheit outside.');
     console.log('The user answered correctly with: ' + temp + 'degrees fahrenheit.');
   } else if (parseInt(temp) > 55.001) {
     alert('Incorrect! You answered ' + temp + ' degrees fahrenheit, which is too high.');
@@ -48,4 +48,15 @@
     console.log('The user answered ' + temp + ' degrees fahrenheit, which is too low.');
   }
 
-  alert('You got ' + tally + ' out of 4 correct!');
+  var win = prompt('Are the Seahawks winning this season?')
+
+  if (win.toLowerCase() === "no") {
+    tally = tally++;
+    alert('You guessed ' + win + '. That is correct.')
+    console.log('The user answered ' + win + ' which is correct')
+  } else {
+    alert('You guessed ' + win + '. That is incorrect.')
+    console.log('The user answered ' + win + ' which is incorrect')
+  }
+
+  alert('You got ' + tally + ' out of 5 correct!');
