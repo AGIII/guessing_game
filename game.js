@@ -39,11 +39,14 @@
   if (parseInt(temp) === 55) {
     tally = tally + 1;
     alert('Correct! It is ' + temp + ' degrees fahrenheit outside.');
-    console.log('The user answered correctly with: ' + temp + 'degrees fahrenheit.');
+    console.log('The user answered correctly with: ' + temp + ' degrees fahrenheit.');
   } else if (parseInt(temp) > 55.001) {
     alert('Incorrect! You answered ' + temp + ' degrees fahrenheit, which is too high.');
     console.log('The user answered ' + temp + ' degrees fahrenheit, which is too high.');
   } else if (parseInt(temp) < 49.999) {
+    alert('Incorrect! You answered ' + temp + ' degrees fahrenheit, which is too low.');
+    console.log('The user answered ' + temp + ' degrees fahrenheit, which is too low.');
+  } else {
     alert('Incorrect! You answered ' + temp + ' degrees fahrenheit, which is too low.');
     console.log('The user answered ' + temp + ' degrees fahrenheit, which is too low.');
   }
@@ -66,8 +69,8 @@
     alert('You answered ' + currentYear + ". You are correct!");
     console.log('The user answered correctly with ' + currentYear + '.');
   } else {
-    alert('You answered ' + currentYear + ". That is incorrect. The current year is 2015");
+    alert('You answered ' + currentYear + ". That is incorrect. The current year is 2015.");
     console.log('The user answered incorrectly with ' + currentYear + '.');
   }
 
-  alert('You got ' + tally + ' out of 5 correct!');
+  alert('You got ' + tally + ' out of 6 correct!');
