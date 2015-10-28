@@ -51,12 +51,12 @@
   var win = prompt('Are the Seahawks winning this season?')
 
   if (win.toLowerCase() === "no") {
-    tally = tally++;
+    tally = tally + 1;
     alert('You guessed ' + win + '. That is correct.')
-    console.log('The user answered ' + win + ' which is correct')
+    console.log('The user answered correctly with ' + win + '.')
   } else {
     alert('You guessed ' + win + '. That is incorrect.')
-    console.log('The user answered ' + win + ' which is incorrect')
+    console.log('The user answered incorrectly with ' + win + '.')
   }
 
   alert('You got ' + tally + ' out of 5 correct!');
