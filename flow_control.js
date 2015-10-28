@@ -13,6 +13,11 @@ if (condition) {
   // Do some other code
 }
 
-while (condition) {
-  //do some code
+
+var user = parseInt(prompt('Whats my number?'));
+
+while (user !== 4) {
+  alert('Thats not my number, guess again');
+  user = prompt('What is your guess?');
 }
+
