@@ -52,11 +52,22 @@
 
   if (win.toLowerCase() === "no") {
     tally = tally + 1;
-    alert('You guessed ' + win + '. That is correct.')
-    console.log('The user answered correctly with ' + win + '.')
+    alert('You guessed ' + win + '. That is correct.');
+    console.log('The user answered correctly with ' + win + '.');
   } else {
-    alert('You guessed ' + win + '. That is incorrect.')
-    console.log('The user answered incorrectly with ' + win + '.')
+    alert('You guessed ' + win + '. That is incorrect.');
+    console.log('The user answered incorrectly with ' + win + '.');
+  }
+
+  var currentYear = prompt('What is the current year?')
+
+  if (parseInt(currentYear) === 2015) {
+    tally = tally + 1;
+    alert('You answered ' + currentYear + ". You are correct!");
+    console.log('The user answered correctly with ' + currentYear + '.');
+  } else {
+    alert('You answered ' + currentYear + ". That is incorrect. The current year is 2015");
+    console.log('The user answered incorrectly with ' + currentYear + '.');
   }
 
   alert('You got ' + tally + ' out of 5 correct!');
