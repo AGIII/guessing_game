@@ -6,11 +6,9 @@ h4 {color: purple;}
 h5 {color: yellow;}
 h6 {color: gray;}
 p {color: purple; font-family: Arial;}
-
 .correct {
   color: green;
 }
-
 .incorrect {
   color: red;
 }

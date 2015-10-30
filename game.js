@@ -1,25 +1,25 @@
-    var car = document.getElementById('car');
-    var pic1 = document.getElementById('pic1');
-    var pic2 = document.getElementById('pic2');
-    var pic3 = document.getElementById('pic3');
-    var pic4 = document.getElementById('pic4');
-    var pic5 = document.getElementById('pic5');
-    var pic6 = document.getElementById('pic6');
-    var tally = 0;
-    var ans1 = document.getElementById('answer1');
-    var ans2 = document.getElementById('answer2');
-    var ans3 = document.getElementById('answer3');
-    var ans4 = document.getElementById('answer4');
-    var ans5 = document.getElementById('answer5');
-    var ans6 = document.getElementById('answer6');
-    car.innerHTML = '<img src="Ferrari.jpg" alt="really nice car" height="200">';
+var car = document.getElementById('car');
+var pic1 = document.getElementById('pic1');
+var pic2 = document.getElementById('pic2');
+var pic3 = document.getElementById('pic3');
+var pic4 = document.getElementById('pic4');
+var pic5 = document.getElementById('pic5');
+var pic6 = document.getElementById('pic6');
+var tally = 0;
+var ans1 = document.getElementById('answer1');
+var ans2 = document.getElementById('answer2');
+var ans3 = document.getElementById('answer3');
+var ans4 = document.getElementById('answer4');
+var ans5 = document.getElementById('answer5');
+var ans6 = document.getElementById('answer6');
+car.innerHTML = '<img src="Ferrari.jpg" alt="really nice car" height="200">';
 
-  function alertTimeOut() {
-    alert('Get ready to play a guessing game');
-    };
-    setTimeout(alertTimeOut, 100);
+function alertTimeOut() {
+  alert('Get ready to play a guessing game');
+}
+setTimeout(alertTimeOut, 100);
 
-  function q1(){
+function q1(){
   var name = prompt('What is my middle name?');
   if (name.toLowerCase() === 'francis') {
     tally = tally + 1;
@@ -32,11 +32,10 @@
     console.log('The user answered incorrectly with: ' + name);
     ans1.className = "incorrect";
     }
-  }
-  setTimeout(q1, 120);
+}
+setTimeout(q1, 120);
 
-
-  function q2(){
+function q2(){
   var from = prompt('Where am I from?');
   if (from.toLowerCase() === 'los angeles') {
     tally = tally + 1;
@@ -51,7 +50,6 @@
   }
 }
 setTimeout(q2, 140);
-
 
 function q3(){
   var born = prompt('What year was I born?');
@@ -68,7 +66,6 @@ function q3(){
   }
 }
 setTimeout(q3, 160);
-
 
 function q4(){
   var temp = prompt('What is the temperature right now in degrees fahrenheit?');
@@ -94,7 +91,6 @@ function q4(){
 }
 setTimeout(q4, 180);
 
-
 function q5(){
   var win = prompt('Are the Seahawks winning this season?')
   if (win.toLowerCase() === "no") {
@@ -110,7 +106,6 @@ function q5(){
   }
 }
 setTimeout(q5, 200);
-
 
 function q6(){
   var currentYear = prompt('What is the current year?')
