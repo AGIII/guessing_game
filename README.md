@@ -7,3 +7,13 @@ A: One hundred people who don't do dick.
 
 Driver: Brandon Parker
 Navigator: George Ascherl
+
+
+Oct 30th Update
+--------------
+
+Today the following individuals updated the HTML, CSS, and JS code.
+
+Driver: AJ Wohlfert
+Navigator: George Ascherl
+
