@@ -17,7 +17,7 @@ car.innerHTML = '<img src="Ferrari.jpg" alt="really nice car" height="200">';
 function alertTimeOut() {
   alert('Get ready to play a guessing game');
 }
-setTimeout(alertTimeOut, 100);
+setTimeout(alertTimeOut, 1000);
 
 function q1(){
   var name = prompt('What is my middle name?');
@@ -33,7 +33,7 @@ function q1(){
     ans1.className = "incorrect";
     }
 }
-setTimeout(q1, 120);
+setTimeout(q1, 1020);
 
 function q2(){
   var from = prompt('Where am I from?');
@@ -49,7 +49,7 @@ function q2(){
     ans2.className = "incorrect";
   }
 }
-setTimeout(q2, 140);
+setTimeout(q2, 1040);
 
 function q3(){
   var born = prompt('What year was I born?');
@@ -65,7 +65,7 @@ function q3(){
     ans3.className = "incorrect";
   }
 }
-setTimeout(q3, 160);
+setTimeout(q3, 1060);
 
 function q4(){
   var temp = prompt('What is the temperature right now in degrees fahrenheit?');
@@ -89,7 +89,7 @@ function q4(){
     ans4.className = "incorrect";
   }
 }
-setTimeout(q4, 180);
+setTimeout(q4, 1080);
 
 function q5(){
   var win = prompt('Are the Seahawks winning this season?')
@@ -105,7 +105,7 @@ function q5(){
     ans5.className = "incorrect";
   }
 }
-setTimeout(q5, 200);
+setTimeout(q5, 1100);
 
 function q6(){
   var currentYear = prompt('What is the current year?')
@@ -121,9 +121,9 @@ function q6(){
     ans6.className = "incorrect";
   }
 }
-setTimeout(q6, 220);
+setTimeout(q6, 1120);
 
 function endGame(){
   alert('You got ' + tally + ' out of 6 correct!');
 }
-setTimeout(endGame, 300);
+setTimeout(endGame, 1140);
